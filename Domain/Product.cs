@@ -22,7 +22,7 @@ namespace Domain
 
         //[ForeignKey("Category")] clean architecture kurallarına aykırı bir annotation. Domain katmanında db tarafı için özel bir kod bulundurulmamalı.
 
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
 
         public float TAX { get; set; }
 
